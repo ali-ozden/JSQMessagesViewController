@@ -3,7 +3,8 @@ Pod::Spec.new do |s|
 	s.version = '7.3.5'
 	s.summary = 'An elegant messages UI library for iOS.'
 	s.license = 'MIT'
-	s.platform = :ios, '7.0'
+	s.platform = :ios
+    s.ios.deployment_target = '9.0'
 
 	s.author = 'Jesse Squires'
 
@@ -17,4 +18,5 @@ Pod::Spec.new do |s|
 	s.requires_arc = true
 
 	s.deprecated = true
+
 end
